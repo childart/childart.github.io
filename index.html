@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <link href="styles2.css" rel="Stylesheet">
+        <script>
+            var last = 0;
+            function perform(x, y){
+                switch(y){
+                    case 1:
+                        var box = document.getElementById("test1");
+                        break;
+                    case 2:
+                        var box = document.getElementById("test2");
+                        break;
+                    case 3:
+                        var box = document.getElementById("test3");
+                        break;
+                    case 4:
+                        var box = document.getElementById("test4");
+                        break;
+                    case 5:
+                        var box = document.getElementById("test5");
+                        break;
+                    case 6:
+                        var box = document.getElementById("test6");
+                        break;
+                    case 7:
+                        var box = document.getElementById("test7");
+                        break;
+                    case 8:
+                        var box = document.getElementById("test8");
+                        break;
+                    case 9:
+                        var box = document.getElementById("test9");
+                        break;
+                }
+                var box2 = document.getElementById("mainbox");
+                var boxBackground = document.getElementById("test9");
+                if (last == y){
+                    if (box2.innerHTML != ""){
+                        box2.innerHTML = "";
+                        boxBackground.setAttribute("style", "display:none");
+                        return;
+                    }
+                }
+                else {
+                    last = y;
+                }
+                boxBackground.setAttribute("style", "display:block");
+                box2.innerHTML = box.innerHTML;
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div class="one" id="mainbox" style="display:block">
+        </div>
+        <div class="one" id="test1" style="display:none">
+        <p>Our creativity is taught to be limited. We are raised in an environment where certain methods are supported over others which lead to us adapting to a societal culture where some creative expression is more accepted than others. As children we are criticized in how are are able to imitate an object, how to paint inside the lines or how we use a refined language in our art. The learning is structured for refinement from the first time we are dismissed when using the pen wrong, painting outside the canvas or using any methods outside the mainstream way of making art. </p></div> 
+        <div class="one" id="test2" style="display:none">
+        <p>Art, as we know it, is political. No just as used as a form to make a statement but the actual structures of it. From a historical point of view with Western art making up the term of Fine Art with a capital A, in comparison to non western art who still refers to it with lower case. Western art created those bourgeois ideals of refined art, made using a certain method. Art was made for the purpose of pleasure, not to be used as a tool. Already here a powerplay came in to the picture where art became associated with money and power. When later on art started to be institutionalized, the political gain became even bigger. Certain art pieces, those that fitted most into the definition of finer, were curated at a museum. We were shown art that fit under certain ideals, they became the face of art, shown to the world. The white cube too, which had a reason to make art less political by curating it in a way to make it look less like an object and more like a subject, is also ruled by politics. </p></div> 
+        <div class="one" id="test3" style="display:none">
+        <p>Our personality develops in different stages. First stage is the unconscious Id, where all the basic needs and impulsive action lies. The stage that is unaware of the environment around it, not driven by any outer factors than itself. Second stage is the Ego, both conscious and unconscious. With awareness of the world around it, it controls the behaviour driven by the Id to make them acceptable in the society. Third one is the Superego, also both conscious and unconscious. The ethical component that provides the moral standards. 
+            
+
+        We mean that, the Ego is great sometimes when it comes to coexisting with other people, but when it comes to create art, or express any kind of individualism, the Ego stops us from freely express ourselves. The awareness of others, or more so, their opinions, holds us back. We try to make ourselves be accepted by standards created by society. These standards is a wall that we need to break to reach our full potential. Therefor, to reach our fullest potential of creating, we need to go back to the id, let that be the main driver for our individualism. 
+        </p></div> 
+        <div class="one" id="test4" style="display:none">
+        <p>To reach our full potential in our creativity, we need to learn how to unlearn. All the skills we have adapted as kids ,when it comes to how to create- which methods and techniques to use, needs to be undeveloped. As long as we are bounded to certain standards, we are not able to look beyond them, to go deeper in our brains. If we were to go back to when we were kids, before reality happened, the sky could once again be painted purple. Trees could again be alive and ants could be as big as tigers. As kids, everything was possible. We draw our inner fantasies without caring if they were realistic, or if we have drawn them realistically.
+        This is a crucial point to develop ourselves. 
+        </p></div> 
+        <div class="one" id="test5" style="display:none">
+        <p>dgsggsgdgsgsgs </p></div> 
+        <div class="one" id="test6" style="display:none">
+        <p>Sensorial expression is a method when creating art as a response to a sensorial stimuli. By reacting to a sensation felt by one of our prime senses, sight, touch, smell, taste and hearing. Taking in the idea of acting on the ID, we are using our primal self and acting out an outer stimuli using our first reaction to it. This is a basic exercise to get in to the state of mind where all creating practise is based on a primal state of self. To develop further into an universal expressionism based on our full potential unconscious mind.  </p></div> 
+        <div class="one" id="test7" style="display:none">
+        <p>When we grow up, most of out fantasies goes away. We stop reading fairy tales to instead read very realistic dramas. Animals stops to talk, nature loses colour and time becomes very present. All those funny, colourful books is changed to greyness and a melancholic reality.  We laugh about children’s colourful fantasy, and tell them that it is not true. We slowly kill of more and more of the beautiful world inside a child’s head to instead introduce them to a sad reality. If we were to instead accept that, or better, adapt the eyes of a child we could maybe once again see colours. Our own imagination would maybe again let us create things that we have been taught is not true. Cause after all, there is no true or false. Everybody has their own reality and the reality of a kid happens to often be way more imaginative than of an adult. There is a sense of self that is stronger in a kid, before the sense of a strong political society, high standards and a judgemental audience.  </p></div> 
+        <div class="one" id="test8" style="display:none">
+        <p>aaaaaaaaffffff </p></div> 
+        <div class="two">
+            <img src="elefant.png" width="180" height="180" onclick="perform(this, 1);" >
+        </div>
+         <div class="three">
+            <img src="krabba.png" width="170" height="170" onclick="perform(this, 2);" >
+        </div>
+         <div class="four">
+            <img src="huvud.png" width="180" height="180" onclick="perform(this, 3);" >
+        </div>
+         <div class="five">
+            <img src="lejon.png" width="150" height="150" onclick="perform(this, 4);" >
+        </div>
+         <div class="six">
+            <img src="kroko.png" width="130" height="130" onclick="perform(this, 5);" >
+        </div>
+         <div class="seven">
+            <img src="insekt.png" width="160" height="160" onclick="perform(this, 6);" >
+        </div>
+         <div class="eight">
+            <img src="monst.png" width="150" height="150" onclick="perform(this, 7);" >
+        </div>
+         <div class="nine">
+            <img src="fluga.png" width="150" height="150" onclick="perform(this, 8);" >
+        </div>
+        <div class="ten" id="test9" style="display:none">
+            <img src="hands.png" width="800" height="640">
+        </div>
+    </body>
+</html>

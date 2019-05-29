@@ -1,0 +1,94 @@
+body {
+    background-image: url("oil1.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+   
+}
+img {
+    border-radius: 50%;
+    transition: transform .8s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+p {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 14;
+}
+
+.one {
+    position: fixed;
+    left:35%;
+    top: 68%;
+    right: 35%;
+    
+    
+}
+
+.two {
+    position: fixed;
+    left: 5%;
+    top: 12%;
+}
+
+.three {
+    position: fixed;
+    left: 33%;
+    top: 8%;
+
+}
+
+.four {
+    position: fixed;
+    left: 57%;
+    top: 10%;
+}
+
+.five {
+    position: fixed;
+    left: 80%;
+    top: 5%;
+
+}
+
+.six {
+    position: fixed;
+    left: 86%;
+    top: 70%;
+}
+
+.seven {
+    position: fixed;
+    left: 20%;
+    top: 36%;
+    
+}
+
+.eight {
+    position: fixed;
+    left: 67%;
+    top: 47%;
+    
+}
+
+.nine {
+    position: fixed;
+    left: 6%;
+    top: 73%;
+    
+}
+
+.ten {
+    position: fixed;
+    left: 17%;
+    top: 50%;
+    transform: none;
+}
+
+.ten hover {
+    transform: none;
+}
