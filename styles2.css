@@ -22,10 +22,11 @@ p {
 
 .one {
     position: fixed;
-    left:35%;
-    top: 68%;
-    right: 35%;
-    
+    left:30%;
+    bottom: 2%;
+    right: 30%;
+    background-image: url(tri1.png)
+        background-size: cover;
     
 }
 
